@@ -1,2 +1,3 @@
-# BaseballStaistics
+# Baseball Statistics
 Historical Trends in Baseball
+
