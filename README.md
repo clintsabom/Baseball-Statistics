@@ -23,3 +23,4 @@ playerID    zychto01  yearID          2015  stint       �
 
 Resources Consulted:    www.udacity.com  www.wikipedia.org  www.stackoverflow.com 
 
+![chart1](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/download.png "Chart 1")
