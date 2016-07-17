@@ -1,4 +1,8 @@
+
 # coding: utf-8
+
+# In[49]:
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,10 +11,6 @@ import pandas as pd
 def load_dataframe(path):
     df=pd.read_csv(path)
     return df
-
-def preview_dataframe(df):
-    df.describe()
-    df.head()
 
 def correlation(x,y):
     std_x=(x-x.mean())/x.std(ddof=0)
@@ -24,9 +24,20 @@ def print_correlations(baseball_df, key):
     print correlation(baseball_df['3B'],baseball_df[key])
     print correlation(baseball_df['SO'],baseball_df[key])
 
-baseball_df=load_dataframe('Batting')
-preview_dataframe(baseball_df)
+
+# In[50]:
+
+baseball_df=load_dataframe('Batting.csv')
+baseball_df.describe()
+baseball_df.head()
+
+
+# In[51]:
+
 print_correlations(baseball_df, 'HR', )
+
+
+# In[52]:
 
 
 get_ipython().magic(u'matplotlib inline')
@@ -92,4 +103,10 @@ ax.set_xlabel('Homeruns Per Season')
 ax.set_ylabel('Doubles Per Season')
 ax.set_title('Doubles Per Homerun')
 plt.show()
+
+
+
+# In[ ]:
+
+
 
