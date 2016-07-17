@@ -19,6 +19,8 @@ The ​ correlation ratios​  were not as high overall, though ​ tri
        I also did some 1D data visualization to see the general range of homeruns in a single season.  The box plot below shows this.   
  
     The apply function helped me find the maximum values for all statistics.  Or, in  sports­talk­speak, the single season records.     baseball_df.apply(np.max)   
+
+
 playerID    zychto01  yearID          2015  stint              5  teamID           WSU  lgID              UA  G                165  AB               716  R                192  H                262  2B                67  3B                36  HR                73  RBI              191  SB               138  CS                42  BB               232  SO               223  IBB              120  HBP               51  SH                67  SF                19  GIDP              36        The homerun record is 73 (yes, this data includes steroid­era statistics that are a matter of  debate for some), and the record for single season doubles in 67.  Looking at the boxplot above  one can see that while the high may be 73 for homeruns, the majority of data for players in a  single season is clustered around 0­5, meaning simple that the vast majority of players in the  game (if you count every single one, even if they only played one game in their life) hit less than  5 homeruns per season.     I am attaching the complete code I used for data wrangling and data visualization below 
 
 Resources Consulted:    www.udacity.com  www.wikipedia.org  www.stackoverflow.com 
