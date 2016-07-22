@@ -6,8 +6,9 @@ Historical Trends In Major League Power HItters 
 I examined the Baseball Data from SeanLahman.com.  Seah Lahman is an award­winning  database journalist on baeball, and his website hosts a huge data base of baseball statistics  from the history of Major League Baseball. I looked specifically at  all the hitting statistics  in an  effort to obtain statistical clues to look for in good power hitters.   
 
 Imagining an ESPN or  Baseball commentary show attempting to identify the next big homerun hitter, I wondered: could  this be predicted statistically? Or, at least, are there other statistics that could give clues early  on in a player’s career as to whether he will be a good homerun hitter?    I chose to look at other batting variables highly correlated with homeruns.  I used all players  from all time as the population, rather than focusing on recent years or a subset of hitting data.  Early years in baseball are full of missing values in the data, and certain less “glamorous”  statistics such as HBP (hit by pitch) do not seem to be as scrupulously accounted for until the  second­half of the 20th century.   The correlation numbers between all­statistics were obtained  using Python code with a correlation function that I defined.      At first glance, several statistics are highly correlated with HRs:    
-
+```
 3B­­0.3414  H­­0.6967  SO­­0.8179  2B­­­­0.7181  HBP­­0.4845    
+```
 
 However, because the data includes players that play every game of the season and players  that may only play one or two games per season, I feared that a confounding variable (how  many at bats a player had) was obscuring the data.  Obviously, the more at­bats a player has,  the more of EVERY STATISTIC related to batting the likely to have.   So, I divided all these  variables by the number of at­bats to keep the data “honest” or, in statistical terms, “normalized.”     
 
