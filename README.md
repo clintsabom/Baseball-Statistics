@@ -35,4 +35,8 @@ Resources Consulted:    www.udacity.com  www.wikipedia.org  www.stackoverfl
 
 ## Chart 1
 
-![chart1](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/download.png "Chart 1")
+
+
+
+
+![chart1](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/yearshomeruns.png "Chart 1")
