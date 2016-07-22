@@ -40,3 +40,7 @@ Resources Consulted:    www.udacity.com  www.wikipedia.org  www.stackoverfl
 
 
 ![chart1](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/yearshomeruns.png "Chart 1")
+
+## Chart 2
+
+![chart2](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/rangehomeruns.png "Chart 1")
