@@ -43,4 +43,5 @@ Resources Consulted:    www.udacity.com  www.wikipedia.org  www.stackoverfl
 
 ## Chart 2
 
-![chart2](https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/rangehomeruns.png "Chart 1")
+![chart2] (https://raw.githubusercontent.com/clintsabom/Baseball-Statistics/master/rangehomeruns.png "Chart 2")
+
